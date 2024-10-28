@@ -1,0 +1,27 @@
+dependencies:
+  LED:
+    component_hash: f0b813ad0cc12447bf0ad655b28e4c0726a3bd655b40360a770ef8b750e70e67
+    dependencies: []
+    source:
+      git: https://github.com/ironmanwin1/LED_Test1.git
+      path: components/LED
+      type: git
+    version: 9ba198c8d74b384f6e7d23de6c657178243955ac
+  SEVENSEGMENT:
+    component_hash: 03023a306409f3c64215449b0c551ab1ddfd07c64d8e4f3f5b2fac15ff1984dc
+    dependencies: []
+    source:
+      git: https://github.com/ironmanwin1/SevenSegment.git
+      path: components/SevenSegment
+      type: git
+    version: 90e4eef668255e84c8eeb8b6414c8e9fe602c849
+  idf:
+    source:
+      type: idf
+    version: 5.3.1
+direct_dependencies:
+- LED
+- SEVENSEGMENT
+manifest_hash: cc4513c622f3c3dc88d3b05f6727e4ada0a3a15641d71f3517bdc12dae5346df
+target: esp32
+version: 2.0.0
